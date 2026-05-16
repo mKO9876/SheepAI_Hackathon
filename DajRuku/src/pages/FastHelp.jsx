@@ -3,18 +3,18 @@ import UpNavBar from "../assets/UpNavBar";
 import Event from "../assets/Event";
 import data from "../data/volunteer.json"
 
-function Volunteer() {
+function FastHelp() {
 
     const eventsArray = Object.entries(data);
 
     return (
         <div className="main_container">
             <UpNavBar />
-            <h1>Volontiranja</h1>
+            <h1>Brza pomoć</h1>
 
             <div className="all_events_container">
                 {eventsArray
-                    .filter(([key, event]) => event.priority === "low")
+                    .filter(([key, event]) => event.priority === "high")
                     .map(([key, event]) => (
                         <Event
                             key={key}
@@ -29,4 +29,4 @@ function Volunteer() {
         </div>
     )
 }
-export default Volunteer
+export default FastHelp

@@ -6,6 +6,8 @@ import data from "../data/faq.json";
 function Get_help() {
 
     const faqArray = Object.entries(data);
+    const navigate = useNavigate();
+    const need_help = () => navigate(`/eventForm`);
 
     return (
         <div className="main_container">
@@ -53,6 +55,8 @@ function Get_help() {
                     </tbody>
                 </table>
             </div>
+
+            <button onClick={need_help}>Brza pomoć</button>
 
             <div>
                 <h2>FAQ</h2>

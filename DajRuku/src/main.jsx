@@ -10,6 +10,7 @@ import Msg_mock from "./pages/Messages_mock.jsx";
 import Need_help_form from "./pages/Need_help.jsx";
 import SignUp from "./pages/Sign_up.jsx";
 import Volunteering from "./pages/Volunteering.jsx";
+import FastHelp from "./pages/FastHelp.jsx";
 
 ReactDOM.createRoot(root).render(
   <BrowserRouter>
@@ -19,6 +20,7 @@ ReactDOM.createRoot(root).render(
       <Route path="/givehelp" element={<Give_help />} />
       <Route path="/hangouts" element={<Hangouts />} />
       <Route path="/volunteering" element={<Volunteering />} />
+      <Route path="/fastHelp" element={<FastHelp />} />
       <Route path="/logIn" element={<LogIn />} />
       <Route path="/signUp" element={<SignUp />} />
       <Route path="/messages" element={<Msg_mock />} />
