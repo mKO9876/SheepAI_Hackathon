@@ -5,6 +5,7 @@ import './index.css';
 import Get_help from "./pages/Get_help_page.jsx";
 import Give_help from "./pages/Give_help_page.jsx";
 import Hangouts from "./pages/Hangouts_page.jsx";
+import Volunteering from "./pages/Volunteering.jsx";
 import LogIn from "./pages/Log_in.jsx"
 import SignUp from "./pages/Sign_up.jsx"
 
@@ -15,6 +16,7 @@ ReactDOM.createRoot(root).render(
       <Route path="/gethelp" element={<Get_help />} />
       <Route path="/givehelp" element={<Give_help />} />
       <Route path="/hangouts" element={<Hangouts />} />
+      <Route path="/volunteering" element={<Volunteering />} />
       <Route path="/logIn" element={<LogIn />} />
       <Route path="/signUp" element={<SignUp />} />
 
