@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   let navigate = useNavigate();
-  const getHelp = () => { navigate(`/logIn`) }
+  const getHelp = () => { navigate(`/gethelp`) }
   const giveHelp = () => { navigate(`/givehelp`) }
   const hangouts = () => { navigate(`/hangouts`) }
   return (
