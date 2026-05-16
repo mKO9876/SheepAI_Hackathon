@@ -9,6 +9,8 @@ function App() {
   
   return (
     <div className="main_container">
+      <h1>DajRuku</h1>
+      <h3>Aplikacija koja spaja lokalce kroz pomoć, solidarnost i druženje.</h3>
       <button onClick={getHelp}>Tražim pomoć</button>
       <button onClick={giveHelp}>Pružam pomoć</button>
       <button onClick={hangouts}>Druženja</button>

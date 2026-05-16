@@ -2,7 +2,7 @@ import UpNavBar from "../assets/UpNavBar";
 import '../css/msg.css';
 function Msg_mock() {
     return (
-        <div>
+        <div className="main_container">
             <UpNavBar />
             <div className="msg">
                 <p className="MsgR">Pozdrav, vidim da trebate rezervnu gumu, gdje se točno nalazite?</p>
@@ -11,6 +11,7 @@ function Msg_mock() {
                 <p className="MsgL">Hvala puno, spas ste! Vozim crnog Golfa, prepoznat ćete me po crvenoj majici
                 </p>
             </div>
+            <input id="message" type="text" placeholder="Poruka"/>
         </div>
     )
 }

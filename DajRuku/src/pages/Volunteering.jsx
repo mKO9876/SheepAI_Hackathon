@@ -4,7 +4,6 @@ import Event from "../assets/Event";
 import data from "../data/volunteer.json"
 
 function Volunteer() {
-    let navigate = useNavigate();
 
     const eventsArray = Object.entries(data);
 
