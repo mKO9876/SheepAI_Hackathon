@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-    <Link to="/logIn"><button>Hitni brojevi</button> </Link>
+    <Link to="/emergencyNumbers"><button>Hitni brojevi</button> </Link>
    <button>Hitne informacije</button>
    <button>Tražim pomoć</button>
    <button>Pruži brzu pomoć</button>
