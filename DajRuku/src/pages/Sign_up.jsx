@@ -26,7 +26,7 @@ function SignUp() {
     };
 
     return (
-        <form className="login_signup_container">
+        <form className="main_container">
             <h1>Registracija</h1>
             <p>Dobrodošli!</p>
             <input type="tel" placeholder="Broj mobitela" name="phoneNumber"
@@ -37,9 +37,11 @@ function SignUp() {
                 onChange={updateData} />
 
             <button onClick={validateData}>Registracija</button>
-            <p>Imate račun? Prijavite se!</p>
-            <Link to="/logIn"><button>Prijava</button></Link>
-        </form>
+            <div className="reroute_container">
+                <p>Imate račun? Prijavite se!</p>
+                <Link to="/logIn"><button>Prijava</button></Link>
+            </div>
+        </form >
     )
 }
 
