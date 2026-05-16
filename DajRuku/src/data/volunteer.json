@@ -1,0 +1,20 @@
+{
+    "user_interest": {
+        "title": "Prikupljanje smeća",
+        "desc": "U našem kvartu se nakupilo puno smeća van kanti :(, organiziramo se malo počistiti, pridružite se, dijelit ćemo piće, priče i grickalice",
+        "location": "Kman",
+        "priority": "low"
+    },
+    "event1_v": {
+        "title": "Rezervna guma",
+        "desc": "Probila mi se guma, nemam rezervnu, ako neko može posudit da ne moram zvat HAK značilo bi puno",
+        "location": "Dračevac",
+        "priority": "high"
+    },
+    "event2_v": {
+        "title": "Smještaj",
+        "desc": "Nudim smještaj za ljude koji su evakuirali trenutni požar na Klisu, imam mjesta za dvije odrasle osobe",
+        "location": "Split-3",
+        "priority": "high"
+    }
+}

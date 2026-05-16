@@ -1,0 +1,22 @@
+{
+    "user_created": {
+        "title": "Curling na betonu",
+        "desc": "Imamo balun za košarku, stare metle, sapun, vodu i prazan parking, pokušat ćemo",
+        "location": "Pujanke",
+        "priority": "low"
+    },
+    "filler": {
+        "event1": {
+            "title": "Odbojka",
+            "desc": "Opušteno dodavanje i ćakula, neka dođe ko želi",
+            "location": "Spinut",
+            "priority": "low"
+        },
+        "event2": {
+            "title": "Piće i muzika uživo",
+            "desc": "U našem kafiću će u utorak svirati bend XYZ",
+            "location": "Cafe bar Žnj (Žnjan)",
+            "priority": "low"
+        }
+    }
+}
