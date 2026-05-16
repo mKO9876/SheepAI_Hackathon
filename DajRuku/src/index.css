@@ -27,7 +27,6 @@
 
 * {
   font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
 }
 
 body {
@@ -37,6 +36,7 @@ body {
   font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
 
+  overflow-x: hidden;
 }
 
 @font-face {
@@ -92,20 +92,21 @@ button {
   background-color: #fff2e2;
 }
 
-button:hover{
+button:hover {
   background-color: #92140C;
   color: #fff2e2;
 }
-div{
+
+div {
   padding: 20px;
 }
 
-table{
-  text-align:justify;
+table {
+  text-align: justify;
   width: 500px;
 }
 
-input{
+input {
   height: 30px;
   width: 300px;
   border-radius: 5px;

@@ -1,11 +1,13 @@
-function Event_container() {
+const Event = ({ title, desc, location, priority }) => {
     return (
-        <div>
-            <h1>TITLE</h1>
-            <p>Description</p>
-            <p>Location</p>
-            <button>Message</button>
+        <div className="event_info">
+            <h2>{title}</h2>
+            <p><strong>Opis:</strong> {desc}</p>
+            <p><strong>Lokacija:</strong> {location}</p>
+            <p><strong>Prioritet:</strong> {priority}</p>
+            <button>Pošalji poruku</button>
         </div>
-    )
-}
-export default Event_container
+    );
+};
+
+export default Event;

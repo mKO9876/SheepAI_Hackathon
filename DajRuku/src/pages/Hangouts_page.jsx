@@ -1,10 +1,12 @@
 import { useNavigate } from "react-router-dom";
+import UpNavBar from "../assets/UpNavBar";
+
 function Hangouts() {
     let navigate = useNavigate();
-    const start = () => { navigate(`/`) }
+
     return (
-        <div>
-            <button onClick={start}>Pocetna</button>
+        <div className="main_container">
+            <UpNavBar />
 
             Event containers
         </div>

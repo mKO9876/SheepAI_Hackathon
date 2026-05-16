@@ -5,7 +5,10 @@ import './index.css';
 import Get_help from "./pages/Get_help_page.jsx";
 import Give_help from "./pages/Give_help_page.jsx";
 import Hangouts from "./pages/Hangouts_page.jsx";
-import Messages_mock from "./pages/Messages_mock.jsx";
+import LogIn from "./pages/Log_in.jsx";
+import SignUp from "./pages/Sign_up.jsx";
+import Volunteering from "./pages/Volunteering.jsx";
+
 ReactDOM.createRoot(root).render(
   <BrowserRouter>
     <Routes>
@@ -13,7 +16,10 @@ ReactDOM.createRoot(root).render(
       <Route path="/gethelp" element={<Get_help />} />
       <Route path="/givehelp" element={<Give_help />} />
       <Route path="/hangouts" element={<Hangouts />} />
-      <Route path="/messages" element={<Messages_mock />} />
+      <Route path="/volunteering" element={<Volunteering />} />
+      <Route path="/logIn" element={<LogIn />} />
+      <Route path="/signUp" element={<SignUp />} />
+
     </Routes>
   </BrowserRouter>
 );

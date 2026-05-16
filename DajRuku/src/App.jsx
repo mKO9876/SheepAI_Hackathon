@@ -6,6 +6,7 @@ function App() {
   const getHelp = () => { navigate(`/gethelp`) }
   const giveHelp = () => { navigate(`/givehelp`) }
   const hangouts = () => { navigate(`/hangouts`) }
+  
   return (
     <div className="main_container">
       <button onClick={getHelp}>Tražim pomoć</button>
