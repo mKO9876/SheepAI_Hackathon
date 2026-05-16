@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router";
 
-function SignUp() {
+function LogIn() {
     const [userData, setUserData] = useState({
         phoneNumber: "",
         password: ""
@@ -26,8 +26,8 @@ function SignUp() {
     };
 
     return (
-        <form className="login_signup_container">
-            <h1>Registracija</h1>
+        <form className="main_container">
+            <h1>Prijava</h1>
             <p>Dobrodošli!</p>
             <input type="tel" placeholder="Broj mobitela" name="phoneNumber"
                 value={setUserData.phoneNumber}
@@ -36,11 +36,13 @@ function SignUp() {
                 value={setUserData.password}
                 onChange={updateData} />
 
-            <button onClick={validateData}>Registracija</button>
-            <p>Imate račun? Prijavite se!</p>
-            <Link to="/logIn"><button>Prijava</button></Link>
+            <button onClick={validateData}>Prijava</button>
+            <div className="reroute_container">
+                <p>Nemate račun? Registrirajte se!</p>
+                <Link to="/signUp"><button>Registracija</button></Link>
+            </div>
         </form>
     )
 }
 
-export default SignUp
+export default LogIn

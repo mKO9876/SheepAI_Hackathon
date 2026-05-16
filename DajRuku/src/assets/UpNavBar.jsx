@@ -1,14 +1,12 @@
 import { useNavigate } from "react-router-dom";
-function Give_help() {
+
+function UpNavBar() {
     let navigate = useNavigate();
     const start = () => { navigate(`/`) }
     return (
-        <div className="main_container">
+        <div id="up_nav_container">
             <button onClick={start}>Pocetna</button>
-
-            <button>Brza pomoć</button>
-            <button>Volontiranja</button>
         </div>
     )
 }
-export default Give_help
+export default UpNavBar
